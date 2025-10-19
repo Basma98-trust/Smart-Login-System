@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link BootStrap CSS File -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- Link Main CSS File -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <section class="container p-5">
+      <h1 class="mb-3">Smart Login System</h1>
+      <div class="form-inputs">
+        <input
+        id="nameInput"
+          class="form-control mb-3 rounded-0 rounded-1 text-white"
+          type="text"
+          placeholder="Enter your name"
+          aria-label="default input example"
+        />
+        <input
+        id="emailInput"
+          class="form-control mb-3 rounded-0 rounded-1 text-white"
+          type="email"
+          placeholder="Enter your email"
+          aria-label="default input example"
+        />
+        <input
+        id="passwordInput"
+          class="form-control mb-4 rounded-0 rounded-1 text-white"
+          type="password"
+          placeholder="Enter your password"
+          aria-label="default input example"
+        />
+        <p id="signupMessage" class="text-center m-3 d-none">Success</p>
+        <button id="signUpBtn" class="btn btn-outline-info rounded-0 rounded-1 w-100 mt-2" onclick="addUser(event)">
+          Sign Up
+        </button>
+      </div>
+      <p class="text-white text-center m-3">
+        You have an account?
+        <a href="../index.html" class="text-decoration-none text-white">Sign In</a>
+      </p>
+    </section>
+    <!-- Link BootStrap JS File -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <!-- Link Main JS File -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>

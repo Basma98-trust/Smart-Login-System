@@ -1,0 +1,81 @@
+body {
+  background-color: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.container {
+  width: 61%;
+  margin: 50px auto;
+  background-color: #24353f;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.7); /* ظل أسود نصف شفاف */
+}
+
+.container h1 {
+  color: #17a2b8;
+  font-weight: 500;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.container .form-inputs input {
+  background-color: transparent !important;
+}
+
+.container .form-inputs input:focus {
+  box-shadow: none !important;
+}
+
+.container .form-inputs input::placeholder {
+  color: #b6b6ab;
+}
+
+.container .form-inputs button {
+  color: #17a2b8 !important;
+  border: 1px solid #17a2b8 !important;
+}
+
+.container .form-inputs button:hover {
+  background-color: #17a2b8 !important;
+  color: #fff !important;
+}
+
+.container p a:hover {
+  text-decoration: underline !important;
+}
+
+.my-nav {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+  padding-inline: 5rem !important;
+}
+
+.my-nav button {
+  color: #b6b6ab;
+}
+
+.my-nav button a {
+    color: #b6b6ab !important;
+}
+.my-nav button:hover a {
+    color: #fff !important;
+}
+
+.welcome-container {
+  width: 61%;
+  margin: 16% auto;
+  padding: 3.3rem !important;
+  background-color: #24353f;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+}
+
+.welcome-container p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: #17a2b8;
+  margin: 0;
+}
+
+#Success-paragraph {
+    color: #28A744 ;
+}
