@@ -14,25 +14,32 @@
       <h1 class="mb-3">Smart Login System</h1>
       <div class="form-inputs">
         <input
-        id="loginEmail"
+          id="loginEmail"
           class="form-control mb-3 rounded-0 rounded-1 text-white"
           type="email"
           placeholder="Enter your email"
           aria-label="default input example"
         />
         <input
-         id="loginPassword"
+          id="loginPassword"
           class="form-control mb-4 rounded-0 rounded-1 text-white"
           type="password"
           placeholder="Enter your password"
           aria-label="default input example"
         />
-         <p id="loginMessage" class="text-danger text-center m-3 d-none"></p>
-        <button class="btn btn-outline-info rounded-0 rounded-1 w-100 mt-2"  onclick="loginUser(event)">Login</button>
+        <p id="loginMessage" class="text-danger text-center m-3 d-none"></p>
+        <button
+          id="signInBtn"
+          class="btn btn-outline-info rounded-0 rounded-1 w-100 mt-2"
+        >
+          Login
+        </button>
       </div>
       <p class="text-white text-center m-3">
         Don't have an account?
-        <a href="./pages/signup.html" class="text-decoration-none text-white">Sign Up</a>
+        <a href="./pages/signup.html" class="text-decoration-none text-white"
+          >Sign Up</a
+        >
       </p>
     </section>
     <!-- Link BootStrap JS File -->
